@@ -13,11 +13,11 @@
 		7F8982C71C3D5434009BF9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8982C51C3D5434009BF9C4 /* LaunchScreen.storyboard */; };
 		7F8982D21C3D5435009BF9C4 /* EffectiveObjcDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8982D11C3D5435009BF9C4 /* EffectiveObjcDemoTests.m */; };
 		7F8982DD1C3D5435009BF9C4 /* EffectiveObjcDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8982DC1C3D5435009BF9C4 /* EffectiveObjcDemoUITests.m */; };
-		7FC13B541C3EBA4F00AF00B1 /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B4F1C3EBA4F00AF00B1 /* EOCEmployer.m */; };
-		7FC13B551C3EBA4F00AF00B1 /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B511C3EBA4F00AF00B1 /* EOCPerson.m */; };
-		7FC13B561C3EBA4F00AF00B1 /* EOCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B531C3EBA4F00AF00B1 /* EOCStudent.m */; };
 		7FC13B5F1C3EBAAE00AF00B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B5C1C3EBAAE00AF00B1 /* AppDelegate.m */; };
 		7FC13B601C3EBAAE00AF00B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B5E1C3EBAAE00AF00B1 /* ViewController.m */; };
+		7FC13B691C3EBE5700AF00B1 /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B641C3EBE5700AF00B1 /* EOCEmployer.m */; };
+		7FC13B6A1C3EBE5700AF00B1 /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B661C3EBE5700AF00B1 /* EOCPerson.m */; };
+		7FC13B6B1C3EBE5700AF00B1 /* EOCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B681C3EBE5700AF00B1 /* EOCStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,17 +50,18 @@
 		7F8982D81C3D5435009BF9C4 /* EffectiveObjcDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveObjcDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8982DC1C3D5435009BF9C4 /* EffectiveObjcDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectiveObjcDemoUITests.m; sourceTree = "<group>"; };
 		7F8982DE1C3D5435009BF9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FC13B4D1C3EBA4F00AF00B1 /* EOCCP1Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCCP1Delegate.h; sourceTree = "<group>"; };
-		7FC13B4E1C3EBA4F00AF00B1 /* EOCEmployer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployer.h; sourceTree = "<group>"; };
-		7FC13B4F1C3EBA4F00AF00B1 /* EOCEmployer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployer.m; sourceTree = "<group>"; };
-		7FC13B501C3EBA4F00AF00B1 /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
-		7FC13B511C3EBA4F00AF00B1 /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
-		7FC13B521C3EBA4F00AF00B1 /* EOCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCStudent.h; sourceTree = "<group>"; };
-		7FC13B531C3EBA4F00AF00B1 /* EOCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCStudent.m; sourceTree = "<group>"; };
 		7FC13B5B1C3EBAAE00AF00B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FC13B5C1C3EBAAE00AF00B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7FC13B5D1C3EBAAE00AF00B1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7FC13B5E1C3EBAAE00AF00B1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FC13B621C3EBE5700AF00B1 /* EOCCP1Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCCP1Delegate.h; sourceTree = "<group>"; };
+		7FC13B631C3EBE5700AF00B1 /* EOCEmployer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployer.h; sourceTree = "<group>"; };
+		7FC13B641C3EBE5700AF00B1 /* EOCEmployer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployer.m; sourceTree = "<group>"; };
+		7FC13B651C3EBE5700AF00B1 /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
+		7FC13B661C3EBE5700AF00B1 /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
+		7FC13B671C3EBE5700AF00B1 /* EOCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCStudent.h; sourceTree = "<group>"; };
+		7FC13B681C3EBE5700AF00B1 /* EOCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCStudent.m; sourceTree = "<group>"; };
+		7FC13B6E1C3EBE9300AF00B1 /* EOCItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCItem1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,23 +152,10 @@
 		7F8982EE1C3D5510009BF9C4 /* Chapter 1 */ = {
 			isa = PBXGroup;
 			children = (
-				7FC13B4C1C3EBA4F00AF00B1 /* Item1 */,
+				7FC13B6C1C3EBE6500AF00B1 /* Item1 */,
+				7FC13B611C3EBE5700AF00B1 /* Item2 */,
 			);
 			path = "Chapter 1";
-			sourceTree = "<group>";
-		};
-		7FC13B4C1C3EBA4F00AF00B1 /* Item1 */ = {
-			isa = PBXGroup;
-			children = (
-				7FC13B4D1C3EBA4F00AF00B1 /* EOCCP1Delegate.h */,
-				7FC13B4E1C3EBA4F00AF00B1 /* EOCEmployer.h */,
-				7FC13B4F1C3EBA4F00AF00B1 /* EOCEmployer.m */,
-				7FC13B501C3EBA4F00AF00B1 /* EOCPerson.h */,
-				7FC13B511C3EBA4F00AF00B1 /* EOCPerson.m */,
-				7FC13B521C3EBA4F00AF00B1 /* EOCStudent.h */,
-				7FC13B531C3EBA4F00AF00B1 /* EOCStudent.m */,
-			);
-			path = Item1;
 			sourceTree = "<group>";
 		};
 		7FC13B5A1C3EBAAE00AF00B1 /* Effective-Objective-C */ = {
@@ -179,6 +167,28 @@
 				7FC13B5E1C3EBAAE00AF00B1 /* ViewController.m */,
 			);
 			path = "Effective-Objective-C";
+			sourceTree = "<group>";
+		};
+		7FC13B611C3EBE5700AF00B1 /* Item2 */ = {
+			isa = PBXGroup;
+			children = (
+				7FC13B621C3EBE5700AF00B1 /* EOCCP1Delegate.h */,
+				7FC13B631C3EBE5700AF00B1 /* EOCEmployer.h */,
+				7FC13B641C3EBE5700AF00B1 /* EOCEmployer.m */,
+				7FC13B651C3EBE5700AF00B1 /* EOCPerson.h */,
+				7FC13B661C3EBE5700AF00B1 /* EOCPerson.m */,
+				7FC13B671C3EBE5700AF00B1 /* EOCStudent.h */,
+				7FC13B681C3EBE5700AF00B1 /* EOCStudent.m */,
+			);
+			path = Item2;
+			sourceTree = "<group>";
+		};
+		7FC13B6C1C3EBE6500AF00B1 /* Item1 */ = {
+			isa = PBXGroup;
+			children = (
+				7FC13B6E1C3EBE9300AF00B1 /* EOCItem1.h */,
+			);
+			path = Item1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,12 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC13B691C3EBE5700AF00B1 /* EOCEmployer.m in Sources */,
 				7FC13B601C3EBAAE00AF00B1 /* ViewController.m in Sources */,
-				7FC13B541C3EBA4F00AF00B1 /* EOCEmployer.m in Sources */,
 				7F8982B91C3D5434009BF9C4 /* main.m in Sources */,
-				7FC13B551C3EBA4F00AF00B1 /* EOCPerson.m in Sources */,
-				7FC13B561C3EBA4F00AF00B1 /* EOCStudent.m in Sources */,
 				7FC13B5F1C3EBAAE00AF00B1 /* AppDelegate.m in Sources */,
+				7FC13B6A1C3EBE5700AF00B1 /* EOCPerson.m in Sources */,
+				7FC13B6B1C3EBE5700AF00B1 /* EOCStudent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
