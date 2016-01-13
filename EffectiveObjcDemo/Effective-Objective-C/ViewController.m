@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "EOCItem4Notifications.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"-----1:%@",EOCItem4Notifications1);
+    NSLog(@"-----2:%@",EOCItem4Notifications2);
     // Do any additional setup after loading the view, typically from a nib.
 }
 

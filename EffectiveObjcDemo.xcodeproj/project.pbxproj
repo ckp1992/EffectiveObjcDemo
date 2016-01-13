@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2609231C45377E002BB7C2 /* EOCItem4Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2609221C45377E002BB7C2 /* EOCItem4Notifications.m */; };
 		7F8982B91C3D5434009BF9C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8982B81C3D5434009BF9C4 /* main.m */; };
 		7F8982C21C3D5434009BF9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8982C01C3D5434009BF9C4 /* Main.storyboard */; };
 		7F8982C41C3D5434009BF9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8982C31C3D5434009BF9C4 /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 		7FC13B691C3EBE5700AF00B1 /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B641C3EBE5700AF00B1 /* EOCEmployer.m */; };
 		7FC13B6A1C3EBE5700AF00B1 /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B661C3EBE5700AF00B1 /* EOCPerson.m */; };
 		7FC13B6B1C3EBE5700AF00B1 /* EOCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B681C3EBE5700AF00B1 /* EOCStudent.m */; };
+		7FC13B731C3EC3D400AF00B1 /* EOCItem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B721C3EC3D400AF00B1 /* EOCItem3.m */; };
+		7FFCF82F1C43E6C9004D6E45 /* EOCItem4.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCF82E1C43E6C9004D6E45 /* EOCItem4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F2609211C45377E002BB7C2 /* EOCItem4Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCItem4Notifications.h; sourceTree = "<group>"; };
+		7F2609221C45377E002BB7C2 /* EOCItem4Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCItem4Notifications.m; sourceTree = "<group>"; };
 		7F8982B41C3D5434009BF9C4 /* EffectiveObjcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveObjcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8982B81C3D5434009BF9C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F8982C11C3D5434009BF9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +67,10 @@
 		7FC13B671C3EBE5700AF00B1 /* EOCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCStudent.h; sourceTree = "<group>"; };
 		7FC13B681C3EBE5700AF00B1 /* EOCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCStudent.m; sourceTree = "<group>"; };
 		7FC13B6E1C3EBE9300AF00B1 /* EOCItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCItem1.h; sourceTree = "<group>"; };
+		7FC13B711C3EC3D400AF00B1 /* EOCItem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCItem3.h; sourceTree = "<group>"; };
+		7FC13B721C3EC3D400AF00B1 /* EOCItem3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCItem3.m; sourceTree = "<group>"; };
+		7FFCF82D1C43E6C9004D6E45 /* EOCItem4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCItem4.h; sourceTree = "<group>"; };
+		7FFCF82E1C43E6C9004D6E45 /* EOCItem4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCItem4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +163,8 @@
 			children = (
 				7FC13B6C1C3EBE6500AF00B1 /* Item1 */,
 				7FC13B611C3EBE5700AF00B1 /* Item2 */,
+				7FC13B6F1C3EC0EB00AF00B1 /* Item3 */,
+				7FFCF82C1C43DE0D004D6E45 /* Item4 */,
 			);
 			path = "Chapter 1";
 			sourceTree = "<group>";
@@ -172,13 +183,13 @@
 		7FC13B611C3EBE5700AF00B1 /* Item2 */ = {
 			isa = PBXGroup;
 			children = (
-				7FC13B621C3EBE5700AF00B1 /* EOCCP1Delegate.h */,
 				7FC13B631C3EBE5700AF00B1 /* EOCEmployer.h */,
 				7FC13B641C3EBE5700AF00B1 /* EOCEmployer.m */,
 				7FC13B651C3EBE5700AF00B1 /* EOCPerson.h */,
 				7FC13B661C3EBE5700AF00B1 /* EOCPerson.m */,
 				7FC13B671C3EBE5700AF00B1 /* EOCStudent.h */,
 				7FC13B681C3EBE5700AF00B1 /* EOCStudent.m */,
+				7FC13B621C3EBE5700AF00B1 /* EOCCP1Delegate.h */,
 			);
 			path = Item2;
 			sourceTree = "<group>";
@@ -189,6 +200,26 @@
 				7FC13B6E1C3EBE9300AF00B1 /* EOCItem1.h */,
 			);
 			path = Item1;
+			sourceTree = "<group>";
+		};
+		7FC13B6F1C3EC0EB00AF00B1 /* Item3 */ = {
+			isa = PBXGroup;
+			children = (
+				7FC13B711C3EC3D400AF00B1 /* EOCItem3.h */,
+				7FC13B721C3EC3D400AF00B1 /* EOCItem3.m */,
+			);
+			path = Item3;
+			sourceTree = "<group>";
+		};
+		7FFCF82C1C43DE0D004D6E45 /* Item4 */ = {
+			isa = PBXGroup;
+			children = (
+				7FFCF82D1C43E6C9004D6E45 /* EOCItem4.h */,
+				7FFCF82E1C43E6C9004D6E45 /* EOCItem4.m */,
+				7F2609211C45377E002BB7C2 /* EOCItem4Notifications.h */,
+				7F2609221C45377E002BB7C2 /* EOCItem4Notifications.m */,
+			);
+			path = Item4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,12 +352,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC13B731C3EC3D400AF00B1 /* EOCItem3.m in Sources */,
 				7FC13B691C3EBE5700AF00B1 /* EOCEmployer.m in Sources */,
 				7FC13B601C3EBAAE00AF00B1 /* ViewController.m in Sources */,
 				7F8982B91C3D5434009BF9C4 /* main.m in Sources */,
 				7FC13B5F1C3EBAAE00AF00B1 /* AppDelegate.m in Sources */,
+				7F2609231C45377E002BB7C2 /* EOCItem4Notifications.m in Sources */,
 				7FC13B6A1C3EBE5700AF00B1 /* EOCPerson.m in Sources */,
 				7FC13B6B1C3EBE5700AF00B1 /* EOCStudent.m in Sources */,
+				7FFCF82F1C43E6C9004D6E45 /* EOCItem4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
