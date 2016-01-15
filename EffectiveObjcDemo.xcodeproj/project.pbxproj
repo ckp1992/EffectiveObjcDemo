@@ -14,6 +14,7 @@
 		7F8982C71C3D5434009BF9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8982C51C3D5434009BF9C4 /* LaunchScreen.storyboard */; };
 		7F8982D21C3D5435009BF9C4 /* EffectiveObjcDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8982D11C3D5435009BF9C4 /* EffectiveObjcDemoTests.m */; };
 		7F8982DD1C3D5435009BF9C4 /* EffectiveObjcDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8982DC1C3D5435009BF9C4 /* EffectiveObjcDemoUITests.m */; };
+		7FAD31961C48CEAA0001BF76 /* EOCItem5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD31951C48CEAA0001BF76 /* EOCItem5.m */; };
 		7FC13B5F1C3EBAAE00AF00B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B5C1C3EBAAE00AF00B1 /* AppDelegate.m */; };
 		7FC13B601C3EBAAE00AF00B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B5E1C3EBAAE00AF00B1 /* ViewController.m */; };
 		7FC13B691C3EBE5700AF00B1 /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC13B641C3EBE5700AF00B1 /* EOCEmployer.m */; };
@@ -55,6 +56,8 @@
 		7F8982D81C3D5435009BF9C4 /* EffectiveObjcDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveObjcDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8982DC1C3D5435009BF9C4 /* EffectiveObjcDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectiveObjcDemoUITests.m; sourceTree = "<group>"; };
 		7F8982DE1C3D5435009BF9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAD31941C48CEAA0001BF76 /* EOCItem5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCItem5.h; sourceTree = "<group>"; };
+		7FAD31951C48CEAA0001BF76 /* EOCItem5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCItem5.m; sourceTree = "<group>"; };
 		7FC13B5B1C3EBAAE00AF00B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FC13B5C1C3EBAAE00AF00B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7FC13B5D1C3EBAAE00AF00B1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -165,8 +168,18 @@
 				7FC13B611C3EBE5700AF00B1 /* Item2 */,
 				7FC13B6F1C3EC0EB00AF00B1 /* Item3 */,
 				7FFCF82C1C43DE0D004D6E45 /* Item4 */,
+				7FAD31931C48CE7A0001BF76 /* Item5 */,
 			);
 			path = "Chapter 1";
+			sourceTree = "<group>";
+		};
+		7FAD31931C48CE7A0001BF76 /* Item5 */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD31941C48CEAA0001BF76 /* EOCItem5.h */,
+				7FAD31951C48CEAA0001BF76 /* EOCItem5.m */,
+			);
+			path = Item5;
 			sourceTree = "<group>";
 		};
 		7FC13B5A1C3EBAAE00AF00B1 /* Effective-Objective-C */ = {
@@ -356,6 +369,7 @@
 				7FC13B691C3EBE5700AF00B1 /* EOCEmployer.m in Sources */,
 				7FC13B601C3EBAAE00AF00B1 /* ViewController.m in Sources */,
 				7F8982B91C3D5434009BF9C4 /* main.m in Sources */,
+				7FAD31961C48CEAA0001BF76 /* EOCItem5.m in Sources */,
 				7FC13B5F1C3EBAAE00AF00B1 /* AppDelegate.m in Sources */,
 				7F2609231C45377E002BB7C2 /* EOCItem4Notifications.m in Sources */,
 				7FC13B6A1C3EBE5700AF00B1 /* EOCPerson.m in Sources */,
